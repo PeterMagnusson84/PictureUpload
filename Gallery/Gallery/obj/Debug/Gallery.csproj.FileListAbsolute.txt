@@ -12,3 +12,17 @@ C:\Users\Peter\OneDrive\Projekt\ASP.NET Webforms\Gallery\Gallery\bin\System.Web.
 C:\Users\Peter\OneDrive\Projekt\ASP.NET Webforms\Gallery\Gallery\obj\Debug\Gallery.dll
 C:\Users\Peter\OneDrive\Projekt\ASP.NET Webforms\Gallery\Gallery\obj\Debug\Gallery.pdb
 C:\Users\Peter\OneDrive\Projekt\ASP.NET Webforms\Gallery\Gallery\obj\Debug\Gallery.csprojResolveAssemblyReference.cache
+C:\Users\Peter\OneDrive\Projekt\ASP.NET Webforms\PictureUpload\Gallery\Gallery\bin\Gallery.dll.config
+C:\Users\Peter\OneDrive\Projekt\ASP.NET Webforms\PictureUpload\Gallery\Gallery\bin\Gallery.dll
+C:\Users\Peter\OneDrive\Projekt\ASP.NET Webforms\PictureUpload\Gallery\Gallery\bin\Gallery.pdb
+C:\Users\Peter\OneDrive\Projekt\ASP.NET Webforms\PictureUpload\Gallery\Gallery\bin\Antlr3.Runtime.dll
+C:\Users\Peter\OneDrive\Projekt\ASP.NET Webforms\PictureUpload\Gallery\Gallery\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Peter\OneDrive\Projekt\ASP.NET Webforms\PictureUpload\Gallery\Gallery\bin\Newtonsoft.Json.dll
+C:\Users\Peter\OneDrive\Projekt\ASP.NET Webforms\PictureUpload\Gallery\Gallery\bin\System.Web.Optimization.dll
+C:\Users\Peter\OneDrive\Projekt\ASP.NET Webforms\PictureUpload\Gallery\Gallery\bin\WebGrease.dll
+C:\Users\Peter\OneDrive\Projekt\ASP.NET Webforms\PictureUpload\Gallery\Gallery\bin\Antlr3.Runtime.pdb
+C:\Users\Peter\OneDrive\Projekt\ASP.NET Webforms\PictureUpload\Gallery\Gallery\bin\Newtonsoft.Json.xml
+C:\Users\Peter\OneDrive\Projekt\ASP.NET Webforms\PictureUpload\Gallery\Gallery\bin\System.Web.Optimization.xml
+C:\Users\Peter\OneDrive\Projekt\ASP.NET Webforms\PictureUpload\Gallery\Gallery\obj\Debug\Gallery.csprojResolveAssemblyReference.cache
+C:\Users\Peter\OneDrive\Projekt\ASP.NET Webforms\PictureUpload\Gallery\Gallery\obj\Debug\Gallery.dll
+C:\Users\Peter\OneDrive\Projekt\ASP.NET Webforms\PictureUpload\Gallery\Gallery\obj\Debug\Gallery.pdb

@@ -10,10 +10,14 @@
 </head>
 <body>
 
+    <div id="header">
+        <h1>Bildgalleri</h1>
+    </div>
+    
     <div id="bigPic">
             <asp:PlaceHolder ID="bigImgDisplay" runat="server" Visible="True">
                 <asp:Image ID="bigImg" runat="server" width="700" Height="450"/>
-                </asp:PlaceHolder>
+                </asp:PlaceHolder>    
     </div>
 
     <div id="thumbList">
@@ -31,12 +35,14 @@
                 </ItemTemplate>
             </asp:Repeater>
     </div>
+   
     <form id="uploadForm" runat="server">
-    <div>
+    <div id="uploadFunction">
         Välj en fil att ladda upp </br>
-        <asp:FileUpload ID="PictureFileUpload" runat="server" Size="60" />
+        <asp:FileUpload ID="PictureFileUpload" runat="server" Width="730" />
         <asp:Button ID="UploadButton" runat="server" Text="Ladda upp" OnClick="UploadButton_Click" />
     </div>
+
         <asp:PlaceHolder ID="SuccessMessagePlaceHolder" runat="server" Visible="False">
                <div id="success_message"><p>Filen laddades upp</p></div>
         </asp:PlaceHolder>

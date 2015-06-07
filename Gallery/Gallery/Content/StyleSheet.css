@@ -1,20 +1,30 @@
 ﻿body 
 {
-    color:black;
-}
-.test 
-{
     
+    width: 860px; 
+    margin: 0 auto;
+}
+#header 
+{
+    font-size:25px;
+    padding-bottom:20px;
+    font-family:Lucida Console;
+    text-align:center
 }
 
 #bigPic 
 {
-    
+    float:left;
 }
 
 #thumbList 
-{
+{ 
     overflow:scroll; 
     overflow-x:hidden;
-    height:300px;
+    height:455px;
+    width:130px;  
+}
+#uploadFunction 
+{
+    padding-top:10px;
 }
