@@ -24,6 +24,11 @@ namespace Gallery
                     bigImg.ImageUrl = "~/Pictures/" + i;
                 }
             }
+            if (Session["Uploadsuccses"] != null)
+            {
+                SuccessMessagePlaceHolder.Visible = true;
+                Session.Remove("Uploadsuccses");
+            }
  
             PicList.DataSource = Gallery.GetImageNames();
             PicList.DataBind();
@@ -39,11 +44,8 @@ namespace Gallery
                 Gallery modelGallery = new Gallery();
 
                 modelGallery.SaveImage(stream, upload);
-                //Session["Uploadsuccses"] = true;
+                Session["Uploadsuccses"] = true;
                 Response.Redirect("Default.aspx?img=" + upload);
-
-
-
             }
         }
     }
