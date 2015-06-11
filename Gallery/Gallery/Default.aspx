@@ -35,13 +35,19 @@
                 </ItemTemplate>
             </asp:Repeater>
     </div>
-   
+
+    
+
     <form id="uploadForm" runat="server">
+    <asp:ValidationSummary ID="ValidationSummary1" runat="server" HeaderText="Ett fel inträffade!" CssClass="FileUploadValidator"/>
 
     <div id="uploadFunction">
         Välj en fil att ladda upp </br></br>
         <asp:FileUpload ID="PictureFileUpload" runat="server" Width="730" />
-        <asp:Button ID="UploadButton" runat="server" Text="Ladda upp" OnClick="UploadButton_Click" />
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator" runat="server" ErrorMessage="En bildfil måste väljas" ControlToValidate="PictureFileUpload" Text="*" CssClass="FileUploadValidator"></asp:RequiredFieldValidator>
+        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="Endast filer med filändelsen .gif, .jpg eller .png är tillåtna."
+            Display="Dynamic" ControlToValidate="PictureFileUpload" Text="*"  CssClass="FileUploadValidator" ValidationExpression="^.*\.(gif|jpg|png)$"></asp:RegularExpressionValidator>
+        <asp:Button ID="UploadButton" runat="server" Text="Ladda upp" OnClick="UploadButton_Click"/>
     </div>
 
         <asp:PlaceHolder ID="SuccessMessagePlaceHolder" runat="server" Visible="False">

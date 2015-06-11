@@ -28,3 +28,13 @@
 {
     padding-top:10px;
 }
+
+.FileUploadValidator 
+{
+    color:red;
+}
+
+#FileUploadValidator 
+{
+    color:red;
+}
